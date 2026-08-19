@@ -1069,6 +1069,12 @@ this.bubble.appendChild(this.bubbleCont);
 										cmd(`troll ${this.id}`);
                                     },
                                 },
+                                "kirovify": {
+                                    name: "Kirovify",
+                                    callback: () => {
+										cmd(`kirovify ${this.id}`);
+                                    },
+                                },
                                 "bombify": {
                                     name: "Bombify",
                                     callback: () => {
